@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 #include <psapi.h>
-#define NTDLL_DLL "NTDLL.dll"
+#define NTDLL_DLL "NTDLL.dll
 #define NTDLL_PATH "C:\\Windows\\System32\\ntdll.dll"
 
 BOOL SetuphProcessNtDllContext(OUT HANDLE  *hCurrentProcess ,OUT HMODULE  *hNtdllModule  , OUT LPVOID  *HookedNtDllBaseAddress) {
